@@ -26,17 +26,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
-    
     @IBAction func sendMailButtonPressed(sender: UIButton) {
+        // Code will evaluate when ew the press th button
+        // Adding a Comment here to test commit
         messageLabel.hidden = false
         messageLabel.text = enterMessageTextField.text
         messageLabel.textColor = UIColor.redColor()
-        
         enterMessageTextField.text = ""
         //Escondemos el teclado despues de pulsar el botón
         enterMessageTextField.resignFirstResponder()
-        
         //Cambiamos el texto del botón al pulsarlo
         mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
     }
