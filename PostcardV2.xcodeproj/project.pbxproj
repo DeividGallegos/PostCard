@@ -13,6 +13,8 @@
 		82DCD3AB1D78A78A0053D920 /* PostcardV2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82DCD3A91D78A78A0053D920 /* PostcardV2.xcdatamodeld */; };
 		82DCD3AD1D78A78A0053D920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82DCD3AC1D78A78A0053D920 /* Assets.xcassets */; };
 		82DCD3B01D78A78A0053D920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DCD3AE1D78A78A0053D920 /* LaunchScreen.storyboard */; };
+		82DCD3BA1D78A8F70053D920 /* Wheelie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DCD3B81D78A8F70053D920 /* Wheelie.jpg */; };
+		82DCD3BB1D78A8F70053D920 /* Rossi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 82DCD3B91D78A8F70053D920 /* Rossi.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		82DCD3AC1D78A78A0053D920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82DCD3AF1D78A78A0053D920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82DCD3B11D78A78A0053D920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82DCD3B81D78A8F70053D920 /* Wheelie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wheelie.jpg; sourceTree = "<group>"; };
+		82DCD3B91D78A8F70053D920 /* Rossi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rossi.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		82DCD3A11D78A78A0053D920 /* PostcardV2 */ = {
 			isa = PBXGroup;
 			children = (
+				82DCD3B71D78A8D70053D920 /* Images */,
 				82DCD3A21D78A78A0053D920 /* AppDelegate.swift */,
 				82DCD3A41D78A78A0053D920 /* ViewController.swift */,
 				82DCD3A61D78A78A0053D920 /* Main.storyboard */,
@@ -65,6 +70,15 @@
 				82DCD3A91D78A78A0053D920 /* PostcardV2.xcdatamodeld */,
 			);
 			path = PostcardV2;
+			sourceTree = "<group>";
+		};
+		82DCD3B71D78A8D70053D920 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				82DCD3B81D78A8F70053D920 /* Wheelie.jpg */,
+				82DCD3B91D78A8F70053D920 /* Rossi.JPG */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				82DCD3B01D78A78A0053D920 /* LaunchScreen.storyboard in Resources */,
+				82DCD3BA1D78A8F70053D920 /* Wheelie.jpg in Resources */,
+				82DCD3BB1D78A8F70053D920 /* Rossi.JPG in Resources */,
 				82DCD3AD1D78A78A0053D920 /* Assets.xcassets in Resources */,
 				82DCD3A81D78A78A0053D920 /* Main.storyboard in Resources */,
 			);
