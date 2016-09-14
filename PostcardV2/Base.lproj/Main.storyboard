@@ -107,6 +107,15 @@
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iRa-Ny-RY8"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KgW-xG-6Hf">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="15" y="280" width="147" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -116,6 +125,7 @@
                                 <exclude reference="JlO-z4-SBA"/>
                                 <exclude reference="Ror-dW-auP"/>
                                 <exclude reference="AtJ-IF-eYc"/>
+                                <exclude reference="KgW-xG-6Hf"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -125,6 +135,7 @@
                                 <include reference="JlO-z4-SBA"/>
                                 <include reference="Ror-dW-auP"/>
                                 <include reference="AtJ-IF-eYc"/>
+                                <include reference="KgW-xG-6Hf"/>
                             </mask>
                         </variation>
                     </view>
@@ -133,6 +144,7 @@
                         <outlet property="enterNameTextField" destination="JlO-z4-SBA" id="wEX-b7-HfY"/>
                         <outlet property="mailButton" destination="AtJ-IF-eYc" id="Zva-lQ-92V"/>
                         <outlet property="messageLabel" destination="aEQ-tw-0N6" id="aT6-Bv-ncE"/>
+                        <outlet property="nameLabel" destination="KgW-xG-6Hf" id="L8K-Xf-YK4"/>
                         <outlet property="view" destination="8bC-Xf-vdC" id="8cW-gD-2gZ"/>
                     </connections>
                 </viewController>
